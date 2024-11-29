@@ -28,14 +28,82 @@
 }
  
 #big {
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-gap: 30px;
-position: absolute;
-width: 696px;
-height: 662px;
-left: 67px;
-top: 314px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    position: absolute;
+    width: 696px;
+    height: 662px;
+    left: 67px;
+    top: 314px;
+}
+
+.Hole {
+    box-sizing: border-box;
+    position: absolute;
+    width: 888px;
+    height: 480px;
+    left: 74px;
+    top: 1077px;
+    text-align: center;
+    background: #FFCEBE;
+    border-width: 2px 0px 0px 2px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: blue;
+    text-align: right;
+}
+
+.STTheory {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 696px;
+    height: 1041px;
+    left: 74px;
+    top: 1595px;
+}
+
+#STRING {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: right;
+    font-size: large;
+    padding: 0px;
+    gap: 24px;
+    width: 696px;
+    height: 170px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    background: #FFC1E3;
+    border: 3px solid #FF5DA3; 
+}
+
+.kay {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 696px;
+    height: 272px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
 }
