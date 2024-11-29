@@ -1,0 +1,41 @@
+.bang {
+    width: 800px;
+    height: 150px;
+    top: 50px;
+    font-size: 50px;
+    color: #000000;
+    position: absolute;
+    left: calc(50% - 704px/2);
+    font-family: 'Lato';
+    font-weight: 800;
+    line-height: 150px;
+    text-transform: uppercase;
+}
+
+#cosmos {
+    position: absolute;
+    width: 1220px;
+    height: 64px;
+    left: calc(50% - 1220px/2 - 56px);
+    top: 170px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FF8000;
+}
+ 
+#big {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 30px;
+position: absolute;
+width: 696px;
+height: 662px;
+left: 67px;
+top: 314px;
+}
