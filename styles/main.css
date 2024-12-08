@@ -1,22 +1,28 @@
-.bang {
-    width: 800px;
-    height: 150px;
-    top: 50px;
-    font-size: 50px;
-    color: #000000;
-    position: absolute;
-    left: calc(50% - 704px/2);
+#main {
+    display: inline-block;
+    text-align: center;
+    width: 1289px;
+    height: 2362px;
+}
+
+#bang {
+    display: inline-block;
+    margin-top: 48px;
+    margin-left: 208px;
+    margin-right: 200px;
+    margin-bottom: 53px;
     font-family: 'Lato';
-    font-weight: 800;
-    line-height: 150px;
-    text-transform: uppercase;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 #cosmos {
-    position: absolute;
+    display: inline-block;
     width: 1220px;
     height: 64px;
-    left: calc(50% - 1220px/2 - 56px);
+    left: 1220px;
     top: 170px;
     font-family: 'Lato';
     font-style: normal;
@@ -25,86 +31,114 @@
     line-height: 32px;
     text-align: center;
     color: #FF8000;
+    margin-bottom: 63PX;
 }
  
 #big {
-    display: flex;
+    display: block;
     flex-direction: column;
-    align-items: center;
+    margin-left: 67px;
     padding: 0px;
-    gap: 30px;
-    position: absolute;
     width: 696px;
     height: 662px;
     left: 67px;
     top: 314px;
+    margin-bottom: 101px;
 }
 
-.Hole {
-    box-sizing: border-box;
-    position: absolute;
-    width: 888px;
-    height: 480px;
+#hole {
+    display: block;
+    margin-left: 67px;
+    width: 696px;
+    height: 496px;
+    border: 1px solid red;
     left: 74px;
     top: 1077px;
     text-align: center;
-    background: #FFCEBE;
-    border-width: 2px 0px 0px 2px;
-    border-style: solid;
-    border-color: #000000;
+    background-color: #FFCEBE;
+    margin-bottom: 101px;
 }
 
 h1 {
     color: red;
 }
 
-h2 {
-    color: blue;
-    text-align: right;
+#black {
+    color: #8B2B2C;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
-
-.STTheory {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    width: 696px;
+#sTTheory {
+    display: block;
+    margin-left: 67px;
+    width: 532px;
     height: 1041px;
     left: 74px;
     top: 1595px;
 }
 
-#STRING {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+h2 {
+    display: block;
+    color: blue;
     text-align: right;
-    font-size: large;
-    padding: 0px;
-    gap: 24px;
-    width: 696px;
+}
+
+#approach {
+    margin-left: 67px;
+    display: block;
+    margin-left: 0;
+    width: 532px;
     height: 170px;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-    box-sizing: border-box;
-    justify-content: center;
     background: #FFC1E3;
     border: 3px solid #FF5DA3; 
 }
 
-.kay {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#string {
+    text-align: right;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 24px;
+    width: 486px;
+    height: 124px;
+    margin-bottom: 30px;
+}
+
+#kay {
+    display: block;
     padding: 0px;
-    gap: 30px;
-    position: absolute;
     width: 696px;
     height: 1041px;
     left: 74px;
     top: 1895px;
+}
+
+h3 {
+    display: block;
+    text-align: left;
+    color: #414651;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+}
+
+#ul {
+    margin-bottom: 30px;
+}
+
+li::marker {
+    font-size: 24px;
+}
+
+li {
+    padding-bottom: 16px;
+    text-align: left;
 }
 
 #keyimg {
