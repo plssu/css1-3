@@ -1,15 +1,14 @@
 #main {
     display: inline-block;
     text-align: center;
-    width: 1289px;
+    width: 1503px;
     height: 2362px;
 }
 
 #bang {
     display: inline-block;
     margin-top: 48px;
-    margin-left: 208px;
-    margin-right: 200px;
+    margin: 0 auto;
     margin-bottom: 53px;
     font-family: 'Lato';
     font-size: 40px;
